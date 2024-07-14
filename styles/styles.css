@@ -1,0 +1,22 @@
+img{
+  width: 100%;
+  height:100%;
+}
+.row{
+  height: 700px;
+  display: flex;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+.row > div{
+  flex: 1;
+}
+.vertical-collage img{
+  height: calc((100% - 7px)/2);
+}
+.box-collage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7px;
+}
+
